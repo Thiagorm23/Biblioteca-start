@@ -1,11 +1,41 @@
-:root{
-    --cor-de-fundo: #E9A7DA;
+*{
+    margin: 0;
+    padding:0;
 }
 
-body{
-    background-color: var(--cor-de-fundo);
-}
-
-h1{
+.cabeçalho {
     background-color: #ffff;
+    color:black;
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabeçalho-imagem{
+    width: 7%;
+}
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24pxs;
+}
+.Olá-imagem{
+    width: 45%;
+padding: 24px 0;
+}
+
+.Olá{
+    background-image: linear-gradient(#E9A7DA,#E9A7DA);
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.Olá-div-conteudo{
+    width: 55%;
+}
+
+.Olá-titulo{
+    padding: 24px 0;
 }
